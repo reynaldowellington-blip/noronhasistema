@@ -7,11 +7,9 @@ from datetime import datetime
 st.set_page_config(
     page_title="Next",
     page_icon="⚡",
-    layout="wide"
-
+    layout="wide",
     initial_sidebar_state="expanded"
 )
-
 # Estilização CSS personalizada com os valores em verde tecnológico
 st.markdown("""
     <style>
